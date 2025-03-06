@@ -19,7 +19,7 @@ API_ID = int(environ.get("API_ID", ""))
 API_HASH = environ.get("API_HASH", "")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
-PICS = (environ.get('PICS', 'https://static1.srcdn.com/wordpress/wp-content/uploads/2023/12/solo-leveling.jpg')).split() # Bot Start Picture
+PICS = (environ.get('PICS', 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZeTBvIzSK30yb3Q3zfD5TeRJzcNm17OfXQHJguruvu8Pqhxi6asqxUGqkmvPdNuRtQu33IPAP0YMQ69zAe4GsrBP1jDBDbByglbHXzPbbZfKGuVFiTWC2aeXFbRtNs-bT-0Y3q4DiMOE7_gPPB0f8X1hq8_u7FsM-JL7qzAbLEHjc4bdgnjjVu1T0c5On/w581-h327/Frame%20475.png')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "HDAO1_bot") # without @
 PORT = environ.get("PORT", "8080")
